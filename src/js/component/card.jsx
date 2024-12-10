@@ -6,7 +6,7 @@ import Rigo from "../../img/rigo-baby.jpg";
 //create your first component
 const Card = () => {
     return (
-        <div class="card w-100 mt-3">
+        <div class="card w-100 h-100">
             < img class="card-img-top" src={Rigo} alt="Card image cap" />
             <div class="card-body">
                 <h5 class="card-title mt-2">Card title</h5>

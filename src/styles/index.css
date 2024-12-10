@@ -1,5 +1,10 @@
-.card{
-    width: 18rem;
+.jumbo-title{
+    font-size: 75px;
+}
+
+.jumbo{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 /*
 

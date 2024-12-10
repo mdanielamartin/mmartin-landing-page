@@ -10,21 +10,26 @@ const Home = () => {
 	return (
 		<div>
 			<NavBar />
-			<Jumbotron />
-			<div class='container mt-4'>
-				<div class='row'>
-					<div class='col-sm-12 col-lg-4'>
-						<Card />
-					</div>
-					<div class='col-sm-12 col-lg-4'>
-						<Card />
-					</div>
-					<div class='col-sm-12 col-lg-4'>
-						<Card />
+			<div class='container-fluid mt-4'>
+				<Jumbotron />
+				<div class='container-fluid d-flex justify-content-center mt-4'>
+					<div class='row card-container w-100 gy-2'>
+						<div class='col-sm-12 col-lg-3 col-md-6'>
+							<Card />
+						</div>
+						<div class='col-sm-12 col-lg-3 col-md-6'>
+							<Card />
+						</div>
+						<div class='col-sm-12 col-lg-3 col-md-6'>
+							<Card />
+						</div>
+						<div class='col-sm-12 col-lg-3 col-md-6'>
+							<Card />
+						</div>
 					</div>
 				</div>
+				<Footer />
 			</div>
-			<Footer />
 		</div>
 	);
 };
