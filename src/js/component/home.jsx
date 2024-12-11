@@ -10,20 +10,20 @@ const Home = () => {
 	return (
 		<div>
 			<NavBar />
-			<div class='container-fluid mt-4'>
+			<div className='container-fluid mt-4'>
 				<Jumbotron />
-				<div class='container-fluid d-flex justify-content-center mt-4 p-0 '>
-					<div class='row card-container w-100 g-4 '>
-						<div class='col-sm-12 col-lg-3 col-md-6'>
+				<div className='container-fluid d-flex justify-content-center mt-4 p-0 '>
+					<div className='row card-container w-100 g-4 '>
+						<div className='col-sm-12 col-lg-3 col-md-6'>
 							<Card />
 						</div>
-						<div class='col-sm-12 col-lg-3 col-md-6'>
+						<div className='col-sm-12 col-lg-3 col-md-6'>
 							<Card />
 						</div>
-						<div class='col-sm-12 col-lg-3 col-md-6 '>
+						<div className='col-sm-12 col-lg-3 col-md-6 '>
 							<Card />
 						</div>
-						<div class='col-sm-12 col-lg-3 col-md-6 '>
+						<div className='col-sm-12 col-lg-3 col-md-6 '>
 							<Card />
 						</div>
 					</div>
