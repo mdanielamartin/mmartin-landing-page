@@ -12,18 +12,18 @@ const Home = () => {
 			<NavBar />
 			<div class='container-fluid mt-4'>
 				<Jumbotron />
-				<div class='container-fluid d-flex justify-content-center mt-4'>
-					<div class='row card-container w-100 gy-2'>
+				<div class='container-fluid d-flex justify-content-center mt-4 p-0 '>
+					<div class='row card-container w-100 g-4 '>
 						<div class='col-sm-12 col-lg-3 col-md-6'>
 							<Card />
 						</div>
 						<div class='col-sm-12 col-lg-3 col-md-6'>
 							<Card />
 						</div>
-						<div class='col-sm-12 col-lg-3 col-md-6'>
+						<div class='col-sm-12 col-lg-3 col-md-6 '>
 							<Card />
 						</div>
-						<div class='col-sm-12 col-lg-3 col-md-6'>
+						<div class='col-sm-12 col-lg-3 col-md-6 '>
 							<Card />
 						</div>
 					</div>
